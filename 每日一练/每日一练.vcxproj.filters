@@ -99,5 +99,17 @@
     <ClCompile Include="day_50.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="day_52.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day_53.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day_54.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="day_55.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
