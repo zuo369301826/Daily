@@ -117,8 +117,8 @@ public:
 		TreeNode * pFirst_Left, *pLast_Left, *pFirst_Rigth, *pLast_Rigth;
 		if (pRoot == NULL)//空数
 		{
-			pFirstNode = NULL;//本树的第一个节点为NULL
-			pLastNode = NULL;//本树的最后一个节点为NULL
+			pFirstNode = NULL;//链表的第一个节点为NULL
+			pLastNode = NULL;//链表的最后一个节点为NULL
 			return;
 		}
 		
@@ -139,7 +139,7 @@ public:
 		{
 			//右子树存在
 			_Convert(pRoot->right, pFirst_Rigth, pLast_Rigth);//继续处理右子树
-			pLastNode = pLast_Rigth;//本树的最后一个节点就是右子树最后一个节点
+			pLastNode = pLast_Rigth;//本树链表的最后一个节点就是右子树最后一个节点
 			pRoot->right = pFirst_Rigth;//连接root的右边--右子树第一个节点
 			pFirst_Rigth->left = pRoot;//右子树第一个节点指向root
 		}

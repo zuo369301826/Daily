@@ -63,7 +63,7 @@ public:
 #endif
 
 
-//
+//¸´ÔÓÁ´±íµÄ¿½±´
 //struct RandomListNode {
 //	int label;
 //	struct RandomListNode *next, *random;

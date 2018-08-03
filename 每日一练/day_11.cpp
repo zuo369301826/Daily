@@ -33,6 +33,9 @@ public:
 
 #endif
 
+
+
+// 链表的第一个公共结点
 struct ListNode {
 	int val;
 	struct ListNode *next;

@@ -1,5 +1,6 @@
 #include <iostream>
 
+#if 0
 struct ListNode {
 	int val;
 	struct ListNode *next;
@@ -70,3 +71,5 @@ int main()
 	cur2 = s.FindKthToTail2(&p, 10);
 	return 0;
  }
+
+#endif 
