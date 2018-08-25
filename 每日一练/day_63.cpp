@@ -35,7 +35,7 @@ public:
 #endif 
 
 
-
+#if 0
 //求数的深度
 class Solution {
 public:
@@ -79,3 +79,5 @@ int main()
 	cout << s.TreeDepth(p) << endl;
 	return 0;
 }
+#endif 
+
